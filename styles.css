@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Light background for a fresh look */
+    color: #333; /* Dark text for readability */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navigation Bar Styles */
+header {
+    background: #008080; /* Teal background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+}
+
+header .logo {
+    float: left;
+    font-size: 28px;
+    margin-left: 20px;
+    color: #FFD700; /* Bright yellow for logo */
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #FFD700; /* Gold for links */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #FF4500; /* Change to coral on hover */
+}
+
+/* Hero Section Styles */
+.hero {
+    background: #20B2AA; /* LightSeaGreen for hero section */
+    padding: 40px;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #FFD700; /* Gold for hero text */
+}
+
+/* Products Section Styles */
+.products {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.product-card {
+    display: inline-block;
+    background: #ffffff; /* White background for product cards */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 139, 139, 0.2); /* Soft teal shadow */
+    width: 220px;
+    transition: transform 0.2s; /* Smooth transform on hover */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    color: #FF4500; /* Coral for product titles */
+}
+
+.product-card p {
+    color: #008080; /* Teal for prices */
+}
+
+.product-card button {
+    background: #FF4500; /* Coral button */
+    color: #FFF; /* White text for button */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded button corners */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.product-card button:hover {
+    background: #FFD700; /* Gold on hover */
+    color: #333; /* Dark text on hover */
+}
+
+/* Contact Section */
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #20B2AA; /* LightSeaGreen for form */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    color: #FF4500; /* Coral for labels */
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FFD700; /* Gold border */
+    background: #ffffff; /* White input background */
+    color: #333; /* Dark text in inputs */
+}
+
+/* Footer Styles */
+footer {
+    background: #008080; /* Teal footer */
+    color: #fff; /* White text for footer */
+    text-align: center;
+    padding: 15px 0;
+}
